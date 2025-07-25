@@ -6,46 +6,43 @@
   <title>Dalaa & Amin's Wedding</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    html {
-      scroll-behavior: smooth;
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #fffafc, #fceef4);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      background-color: #ffb6c1;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #ff9bb2;
     }
   </style>
 </head>
 <body>
-
-  <header>
-    <h1>Dalaa & Amin</h1>
-    <p>We're getting married!</p>
-    <div id="countdown"></div>
-    <a href="#details" class="scroll-button">View Wedding Details</a>
-  </header>
-
-  <main>
-    <!-- Our Story -->
-    <section class="fade-in">
-      <h2>Our Story</h2>
-      <p>It all began with a simple connection that blossomed into a lifelong love. After many shared memories, laughs, and dreams, we’re finally tying the knot — and we’re so excited to celebrate with the people who mean the most to us.</p>
-    </section>
-
-    <!-- Wedding Details -->
-    <section id="details" class="fade-in">
-      <h2>Wedding Details</h2>
-      <p><strong>Date:</strong> October 10, 2025</p>
-      <p><strong>Time:</strong> 9:00 PM</p>
-      <p><strong>Location:</strong> Seafront Hotel, Jeddah</p>
-    </section>
-
-    <!-- Photo Section -->
-    <section class="fade-in">
-      <h2>Us</h2>
-      <img src="images/A&D_Invite 2.jpeg" alt="Dalaa and Amin" style="width: 40%; max-width: 300px; height: auto; display: block; margin: 20px auto; border-radius: 10px;" />
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Dalaa & Amin. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
+  <h1>Welcome to Dalaa & Amin's Wedding</h1>
+  <a href="men.html" class="btn">Men’s Wedding</a>
+  <a href="women.html" class="btn">Women’s Wedding</a>
 </body>
 </html>
