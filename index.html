@@ -5,24 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dalaa & Amin's Wedding</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
+
   <header>
     <h1>Dalaa & Amin</h1>
     <p>We're getting married!</p>
     <div id="countdown"></div>
+    <a href="#details" class="scroll-button">View Wedding Details</a>
   </header>
-  <section>
-   
-    <img src="images/A&D_Invite 2.jpeg" alt="Dalaa and Amin" style="width: 40%; max-width: 300px; height: auto; display: block; margin: 20px auto; border-radius: 10px;" />
-  </section>
-  
-
 
   <main>
-    <section>
-      <h2>Welcome to our wedding website!</h2>
-      <p>We’re so excited to celebrate our special day with you.</p>
+    <!-- Our Story -->
+    <section class="fade-in">
+      <h2>Our Story</h2>
+      <p>It all began with a simple connection that blossomed into a lifelong love. After many shared memories, laughs, and dreams, we’re finally tying the knot — and we’re so excited to celebrate with the people who mean the most to us.</p>
+    </section>
+
+    <!-- Wedding Details -->
+    <section id="details" class="fade-in">
+      <h2>Wedding Details</h2>
+      <p><strong>Date:</strong> October 10, 2025</p>
+      <p><strong>Time:</strong> 9:00 PM</p>
+      <p><strong>Location:</strong> Seafront Hotel, Jeddah</p>
+    </section>
+
+    <!-- Photo Section -->
+    <section class="fade-in">
+      <h2>Us</h2>
+      <img src="images/A&D_Invite 2.jpeg" alt="Dalaa and Amin" style="width: 40%; max-width: 300px; height: auto; display: block; margin: 20px auto; border-radius: 10px;" />
     </section>
   </main>
 
