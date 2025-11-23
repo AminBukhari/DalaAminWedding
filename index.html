@@ -5,73 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dalaa & Amin's Wedding</title>
   <link rel="stylesheet" href="style.css" />
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Raleway:wght@400&display=swap');
-
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      background: linear-gradient(to bottom right, #f7f5f2, #fff);
-      font-family: 'Raleway', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      flex-direction: column;
-      color: #333;
-    }
-
-    h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 3em;
-      margin-bottom: 10px;
-      color: #4b4b4b;
-      animation: fadeIn 1s ease-out;
-    }
-
-    p {
-      font-size: 1.2em;
-      margin-bottom: 30px;
-      color: #777;
-      animation: fadeIn 1.5s ease-out;
-    }
-
-    .btn {
-      display: inline-block;
-      margin: 10px;
-      padding: 15px 35px;
-      background: #d9cfc1;
-      color: #fff;
-      font-weight: bold;
-      text-decoration: none;
-      font-size: 1em;
-      border-radius: 30px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      transition: all 0.3s ease-in-out;
-      animation: slideUp 2s ease;
-    }
-
-    .btn:hover {
-      background: #b4aa9e;
-      transform: scale(1.05);
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes slideUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-  </style>
 </head>
 <body>
-  <h1>Dalaa & Amin</h1>
-  <p>Welcome to our wedding website</p>
-  <a href="men.html" class="btn">Men’s Wedding</a>
-  <a href="women.html" class="btn">Women’s Wedding</a>
+
+  <header>
+    <div class="overlay">
+      <h1>Dalaa & Amin</h1>
+      <p>We’re getting married!</p>
+      <div id="countdown"></div>
+      <a href="#details" class="scroll-button">View Details</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="story">
+      <h2>Our Story</h2>
+      <p>From the very beginning, our journey has been full of love, laughter, and unforgettable memories. As we begin this new chapter together, we can’t wait to celebrate our special day with the people who matter most.</p>
+    </section>
+
+    <section id="details">
+      <h2>Wedding Details</h2>
+      <p><strong>Date:</strong> May 1, 2026</p>
+      <p><strong>Location:</strong> <a href="https://share.google/zZJtdTZd9tsUrDj5w" target="_blank" class="map-button">View on Google Maps</a></p>
+    </section>
+
+    <section id="photo">
+      <h2>You're Invited</h2>
+      <img src="images/A&D_Invite 2.jpeg" alt="Dalaa and Amin Invitation" />
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Dalaa & Amin. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
